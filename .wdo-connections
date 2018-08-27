@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections:connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:connections="http://www.ibm.com/websphere/wdo/connections">
+  <connection id="New Derby">
+    <development xsi:type="connections:rsc-live-connection" id="New Derby_dev" name="New Derby"/>
+    <runtime xsi:type="connections:driver-manager-connection" auto-deploy="true" class-location="C:\Users\DhirendraSingh\Desktop\jars\derbyclient.jar;C:\Users\DhirendraSingh\Desktop\jars\derbyclient.jar" id="New Derby_runtime" class-name="org.apache.derby.jdbc.ClientDriver" url="jdbc:derby://localhost:1527/sample;create=true" userid="admin"/>
+  </connection>
+</connections:connections>
