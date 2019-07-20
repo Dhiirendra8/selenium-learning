@@ -14,10 +14,10 @@ public class Constants {
 	
 	
 	
-	//Windows Server 242
+	
 	//public static final String path = "E:/EnvManagement/DownloadFile/";
 	
-	//SDP server
+	
 	//public static final String path = "/tmp/envmgmt/"; //SIT
 	
 	/*public static final String driver = "oracle.jdbc.OracleDriver";
