@@ -51,18 +51,7 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter {
 	public DataSource getDataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		
-		//Not for local --> Other
-		/*dataSource.setDriverClassName("oracle.jdbc.OracleDriver");
-		dataSource.setUrl("jdbc:oracle:thin:@10.19.66.161:1526:uupdb");
-		dataSource.setUsername("csmuup");
-		dataSource.setPassword("A#6LzR7S");*/
 		
-		
-		//local
-		/*dataSource.setDriverClassName("org.apache.derby.jdbc.ClientDriver");
-		dataSource.setUrl("jdbc:derby://localhost:1527/mydb;create=true");
-		dataSource.setUsername(null);
-		dataSource.setPassword(null);*/
 		
 		dataSource.setDriverClassName(Constants.driver);
 		dataSource.setUrl(Constants.url);
