@@ -21,9 +21,9 @@ public class Constants {
 	//public static final String path = "/tmp/envmgmt/"; //SIT
 	
 	/*public static final String driver = "oracle.jdbc.OracleDriver";
-	public static final String url = "jdbc:oracle:thin:@10.19.66.161:1526:uupdb";
-	public static final String username = "csmuup";
-	public static final String password = "A#6LzR7S";*/
+	public static final String url = "jdbc:oracle:thin:@localhost:1521:mydb";
+	public static final String username = "test";
+	public static final String password = "test123";*/
 	
 	
 	
