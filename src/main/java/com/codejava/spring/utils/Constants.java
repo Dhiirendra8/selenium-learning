@@ -15,15 +15,7 @@ public class Constants {
 	
 	
 	
-	//public static final String path = "E:/EnvManagement/DownloadFile/";
 	
-	
-	//public static final String path = "/tmp/envmgmt/"; //SIT
-	
-	/*public static final String driver = "oracle.jdbc.OracleDriver";
-	public static final String url = "jdbc:oracle:thin:@localhost:1521:mydb";
-	public static final String username = "test";
-	public static final String password = "test123";*/
 	
 	
 	
